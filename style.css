@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: yellow;
+}
+
+.inbox {
+  height: auto;
+  width: auto;
+  padding: 25px;
+  background-color: #fff;
+  /* border: 2px solid black; */
+  display: block;
+  line-height: 45px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2),
+    inset 0 0 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+  display: flex;
+  gap: 25px;
+  border-bottom: 0.1px dotted black;
+}
+
+p {
+  font-size: 20px;
+}
